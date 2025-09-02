@@ -1,0 +1,5 @@
+/adf/           # ADF JSON (collaboration branch)
+/databricks/
+/synapse/
+/fabric/
+/docs/
