@@ -1,0 +1,9 @@
+{
+	"name": "cpwdatafactory",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "72d2fdc1-85fb-483f-9a0c-28e40e52e726",
+		"tenantId": "c401b7ef-af82-4db9-90ba-85dec3edb0db"
+	}
+}
