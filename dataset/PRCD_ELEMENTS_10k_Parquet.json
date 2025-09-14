@@ -1,0 +1,24 @@
+{
+	"name": "PRCD_ELEMENTS_10k_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "load_date=@{formatDateTime(utcNow(),'yyyy-MM-dd')}/",
+					"type": "Expression"
+				},
+				"folderPath": "bronze/sap/prcd_elements",
+				"fileSystem": "datalake"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

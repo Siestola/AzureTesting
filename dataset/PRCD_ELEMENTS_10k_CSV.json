@@ -1,0 +1,309 @@
+{
+	"name": "PRCD_ELEMENTS_10k_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "PRCD_ELEMENTS_10k.csv",
+				"folderPath": "stage/prcd_elements",
+				"fileSystem": "datalake"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "CLIENT",
+				"type": "String"
+			},
+			{
+				"name": "KNUMV",
+				"type": "String"
+			},
+			{
+				"name": "KPOSN",
+				"type": "String"
+			},
+			{
+				"name": "STUNR",
+				"type": "String"
+			},
+			{
+				"name": "ZAEHK",
+				"type": "String"
+			},
+			{
+				"name": "KAPPL",
+				"type": "String"
+			},
+			{
+				"name": "KSCHL",
+				"type": "String"
+			},
+			{
+				"name": "KDATU",
+				"type": "String"
+			},
+			{
+				"name": "KRECH",
+				"type": "String"
+			},
+			{
+				"name": "KAWRT",
+				"type": "String"
+			},
+			{
+				"name": "KBETR",
+				"type": "String"
+			},
+			{
+				"name": "WAERS",
+				"type": "String"
+			},
+			{
+				"name": "KKURS",
+				"type": "String"
+			},
+			{
+				"name": "KPEIN",
+				"type": "String"
+			},
+			{
+				"name": "KMEIN",
+				"type": "String"
+			},
+			{
+				"name": "KUMZA",
+				"type": "String"
+			},
+			{
+				"name": "KUMNE",
+				"type": "String"
+			},
+			{
+				"name": "KNTYP",
+				"type": "String"
+			},
+			{
+				"name": "KSTAT",
+				"type": "String"
+			},
+			{
+				"name": "KNPRS",
+				"type": "String"
+			},
+			{
+				"name": "KRUEK",
+				"type": "String"
+			},
+			{
+				"name": "KRELI",
+				"type": "String"
+			},
+			{
+				"name": "KHERK",
+				"type": "String"
+			},
+			{
+				"name": "KGRPE",
+				"type": "String"
+			},
+			{
+				"name": "KOLNR",
+				"type": "String"
+			},
+			{
+				"name": "KNUMH",
+				"type": "String"
+			},
+			{
+				"name": "KOPOS",
+				"type": "String"
+			},
+			{
+				"name": "KVSL1",
+				"type": "String"
+			},
+			{
+				"name": "SAKN1",
+				"type": "String"
+			},
+			{
+				"name": "MWSK1",
+				"type": "String"
+			},
+			{
+				"name": "KVSL2",
+				"type": "String"
+			},
+			{
+				"name": "SAKN2",
+				"type": "String"
+			},
+			{
+				"name": "MWSK2",
+				"type": "String"
+			},
+			{
+				"name": "LIFNR",
+				"type": "String"
+			},
+			{
+				"name": "KDIFF",
+				"type": "String"
+			},
+			{
+				"name": "KWERT",
+				"type": "String"
+			},
+			{
+				"name": "WAERK",
+				"type": "String"
+			},
+			{
+				"name": "KSTEU",
+				"type": "String"
+			},
+			{
+				"name": "KINAK",
+				"type": "String"
+			},
+			{
+				"name": "KOAID",
+				"type": "String"
+			},
+			{
+				"name": "ZAEKO",
+				"type": "String"
+			},
+			{
+				"name": "KFAKTOR",
+				"type": "String"
+			},
+			{
+				"name": "KDUPL",
+				"type": "String"
+			},
+			{
+				"name": "KFAKTOR1",
+				"type": "String"
+			},
+			{
+				"name": "KZBZG",
+				"type": "String"
+			},
+			{
+				"name": "KSTBS",
+				"type": "String"
+			},
+			{
+				"name": "KONMS",
+				"type": "String"
+			},
+			{
+				"name": "KONWS",
+				"type": "String"
+			},
+			{
+				"name": "KWAEH",
+				"type": "String"
+			},
+			{
+				"name": "KWERT_K",
+				"type": "String"
+			},
+			{
+				"name": "KFKIV",
+				"type": "String"
+			},
+			{
+				"name": "KMPRS",
+				"type": "String"
+			},
+			{
+				"name": "PRSQU",
+				"type": "String"
+			},
+			{
+				"name": "TXJLV",
+				"type": "String"
+			},
+			{
+				"name": "KBFLAG",
+				"type": "String"
+			},
+			{
+				"name": "KOUPD",
+				"type": "String"
+			},
+			{
+				"name": "KMXAW",
+				"type": "String"
+			},
+			{
+				"name": "KMXWR",
+				"type": "String"
+			},
+			{
+				"name": "KAWRT_K",
+				"type": "String"
+			},
+			{
+				"name": "KUNNR",
+				"type": "String"
+			},
+			{
+				"name": "KVARC",
+				"type": "String"
+			},
+			{
+				"name": "VARCOND",
+				"type": "String"
+			},
+			{
+				"name": "KTREL",
+				"type": "String"
+			},
+			{
+				"name": "MDFLG",
+				"type": "String"
+			},
+			{
+				"name": "_DATAAGING",
+				"type": "String"
+			},
+			{
+				"name": "CPF_GUID",
+				"type": "String"
+			},
+			{
+				"name": "KAQTY",
+				"type": "String"
+			},
+			{
+				"name": "VAL_ZERO",
+				"type": "String"
+			},
+			{
+				"name": "IS_ACCT_DETN_RELEVANT",
+				"type": "String"
+			},
+			{
+				"name": "TAX_COUNTRY",
+				"type": "String"
+			},
+			{
+				"name": "COMMON_SUPPL_DATA",
+				"type": "String"
+			}
+		]
+	}
+}
